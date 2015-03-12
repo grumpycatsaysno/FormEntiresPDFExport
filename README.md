@@ -32,4 +32,4 @@ This project has been released under the Apache License, version 2.0, the text o
 ### Additional resources:
 
 For more detailed explanation on the code see:
-[My personal blog - Sitefinity tips and tricks](http://www.sitefinitytipsandtricks.net/)
+[My personal blog - Sitefinity tips and tricks](http://www.sitefinitytipsandtricks.net/2015/03/12/form-entry-pdf-export/)
