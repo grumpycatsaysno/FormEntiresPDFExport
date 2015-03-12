@@ -9,8 +9,10 @@ Custom library to export form responses to PDF format using [iTextSharp](https:/
 * Microsoft SQL Server 2008R2 or later versions
 
 ### Video demo:
+
+Cick on the image below to watch a demo:
  
-[![Revision history settings for pages in Sitefinity](http://content.screencast.com/users/Veronica_Mil/folders/Jing/media/299e02d1-5411-4ce0-8473-9bd5f4e5a93a/2015-03-12_2150.png)](http://screencast.com/t/Bkvw0I7MqK0)
+[![Revision history settings for pages in Sitefinity](http://news.sudanvisiondaily.com/images/pdf-icon.png)](http://screencast.com/t/Bkvw0I7MqK0)
 
 ### License information
 
