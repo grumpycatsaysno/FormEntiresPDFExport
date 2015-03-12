@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54B20F19-F78A-4DC3-B935-9D6DEA7B0C95}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PdfExporter</RootNamespace>
+    <AssemblyName>PdfExporter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\SFFormsTests\packages\iTextSharp.5.5.5\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess">
+      <HintPath>..\SFFormsTests\packages\Telerik.DataAccess.Core.2014.3.1209.1\lib\net40\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.35.Extensions">
+      <HintPath>..\SFFormsTests\packages\Telerik.DataAccess.Core.2014.3.1209.1\lib\net40\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.40.Extensions">
+      <HintPath>..\SFFormsTests\packages\Telerik.DataAccess.Core.2014.3.1209.1\lib\net40\Telerik.OpenAccess.40.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Runtime">
+      <HintPath>..\SFFormsTests\packages\Telerik.DataAccess.Core.2014.3.1209.1\lib\net40\Telerik.OpenAccess.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Model">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Personalization">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Personalization.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Resources">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Search">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Comments">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Services.Comments.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Documents">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Services.Documents.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Events">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Services.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Notifications">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Statistics">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Utilities">
+      <HintPath>..\SFFormsTests\packages\Telerik.Sitefinity.Core.7.3.5600.0\lib\net40\Telerik.Sitefinity.Utilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Installer.cs" />
+    <Compile Include="PdfExporter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
