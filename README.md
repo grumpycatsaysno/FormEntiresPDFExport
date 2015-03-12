@@ -1,5 +1,5 @@
 # FormEntiresPDFExport
-Custom library to export form responses to PDF format using iTextSharp 3rd party library.
+Custom library to export form responses to PDF format using [iTextSharp](https://www.nuget.org/packages/iTextSharp/) 3rd party library.
 
 ### Requirements
 
