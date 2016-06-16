@@ -12,7 +12,7 @@ Custom library to export form responses to PDF format using [iTextSharp](https:/
 
 Cick on the image below to watch a demo:
  
-[![Revision history settings for pages in Sitefinity](http://news.sudanvisiondaily.com/images/pdf-icon.png)](http://screencast.com/t/Bkvw0I7MqK0)
+[![Revision history settings for pages in Sitefinity](http://www.logoeps.com/wp-content/uploads/2012/05/adobe-pdf-icon-logo-vector-01.png)](http://screencast.com/t/Bkvw0I7MqK0)
 
 ### License information
 
